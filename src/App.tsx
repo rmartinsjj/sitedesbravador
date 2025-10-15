@@ -602,28 +602,22 @@ function App() {
       {activeSection === 'inicio' && (
         <>
           {/* Hero Section */}
-          <section className="relative min-h-screen overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm scale-110"
-          style={{ backgroundImage: 'url(/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy copy.jpg)' }}
-        ></div>
-        <div className="relative h-full flex items-center justify-center text-center px-4 py-20">
-          <div className="max-w-4xl">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
-              Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto drop-shadow-lg">
-              Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão
-            </p>
-            <div className="flex justify-center">
-              <button
-                onClick={() => setActiveSection('planos')}
-                className="group relative bg-yellow-400 text-gray-900 px-8 sm:px-10 py-3 sm:py-4 rounded-full font-semibold hover:bg-yellow-500 transition-all hover:scale-105 shadow-lg text-sm sm:text-base flex items-center gap-2 animate-pulse hover:animate-none"
-              >
-                Quero ser Sócio
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
-            </div>
+          <section className="relative min-h-screen overflow-hidden bg-black flex items-center justify-center">
+        <div className="relative text-center px-4 py-20 max-w-4xl">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
+          </h1>
+          <p className="text-lg sm:text-xl md:text-2xl text-white mb-10 max-w-3xl mx-auto">
+            Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão
+          </p>
+          <div className="flex justify-center">
+            <button
+              onClick={() => setActiveSection('planos')}
+              className="group relative bg-yellow-600 text-black px-10 py-4 rounded-full font-semibold hover:bg-yellow-700 transition-colors text-base flex items-center gap-2"
+            >
+              Quero ser Sócio
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </button>
           </div>
         </div>
       </section>
