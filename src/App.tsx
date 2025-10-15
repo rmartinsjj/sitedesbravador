@@ -604,17 +604,15 @@ function App() {
           {/* Hero Section */}
           <section className="relative min-h-screen overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm scale-110"
           style={{ backgroundImage: 'url(/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy copy.jpg)' }}
-        >
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        </div>
+        ></div>
         <div className="relative h-full flex items-center justify-center text-center px-4 py-20">
           <div className="max-w-4xl">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
             </h1>
-            <p className="text-base sm:text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto drop-shadow-lg">
               Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão
             </p>
             <div className="flex justify-center">
