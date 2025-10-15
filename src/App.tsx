@@ -511,7 +511,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveSection('inicio')}>
               <img
-                src="/logodbv.png"
+                src="/logodbv copy.png"
                 alt="Desbravadores da Praia"
                 className="h-12 w-auto object-contain"
               />
