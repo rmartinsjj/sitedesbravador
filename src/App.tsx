@@ -716,10 +716,9 @@ function App() {
                       {getPartnersForPage(pageIndex).map((partner, index) => {
                         const PartnerCard = partner.link ? 'a' : 'div';
                         const linkProps = partner.link ? { href: partner.link, target: '_blank', rel: 'noopener noreferrer' } : {};
-                        const isComingSoon = partner.discount.toLowerCase().includes('em breve');
 
                         return (
-                          <PartnerCard key={index} {...linkProps} className={`bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow cursor-pointer ${isComingSoon ? 'opacity-70 blur-sm' : ''}`}>
+                          <PartnerCard key={index} {...linkProps} className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow cursor-pointer">
                             {partner.image ? (
                               <div className="w-32 h-32 mx-auto mb-4 flex items-center justify-center">
                                 <img
@@ -734,7 +733,7 @@ function App() {
                               </div>
                             )}
                             <h3 className="text-xl font-bold text-gray-900 mb-2 text-center">{partner.name}</h3>
-                            <p className={`${isComingSoon ? 'text-gray-500' : 'text-green-600'} font-semibold text-center mb-4`}>
+                            <p className="text-green-600 font-semibold text-center mb-4">
                               {partner.discount}
                             </p>
                             <p className="text-gray-600 text-sm text-center">
