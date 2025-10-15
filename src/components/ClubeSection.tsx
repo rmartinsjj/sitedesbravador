@@ -104,50 +104,53 @@ export function ClubeSection() {
           ]}
         />
 
-        <div className="mt-16 bg-gray-50 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Nossa <span className="text-blue-600">Liderança</span>
+        <div className="mt-16 bg-white rounded-2xl p-8">
+          <h3 className="text-3xl font-bold text-center mb-4">
+            Nossa <span className="text-yellow-500">Liderança</span>
           </h3>
+          <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+            Conheça os líderes dedicados que fazem a diferença na vida de nossos desbravadores
+          </p>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3 overflow-hidden">
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
                 <img
                   src="/momentos-especiais/mariana.jpeg.jpg"
-                  alt="Lyvia Kastner"
+                  alt="Luiz Kohler"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="font-bold text-gray-900">Lyvia Kastner</h4>
-              <p className="text-sm text-blue-600">Diretora do Clube</p>
-              <p className="text-xs text-gray-600 mt-2">
-                Líder apaixonada com anos de dedicação na formação dos adolescentes
+              <h4 className="font-bold text-gray-900 text-lg mb-1">Luiz Kohler</h4>
+              <p className="text-sm text-yellow-600 font-semibold mb-2">Diretor do Clube</p>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Lidera e representa o clube, coordenando todas as atividades e equipes para cumprir a missão e os ideais dos Desbravadores
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3"></div>
-              <h4 className="font-bold text-gray-900">Christiny Corrêa</h4>
-              <p className="text-sm text-green-600">Diretora Associada</p>
-              <p className="text-xs text-gray-600 mt-2">
-                Comprometida com o desenvolvimento espiritual dos desbravadores
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 border-4 border-blue-300"></div>
+              <h4 className="font-bold text-gray-900 text-lg mb-1">Cristiny Corrêa</h4>
+              <p className="text-sm text-blue-600 font-semibold mb-2">Diretora Associada</p>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Auxilia o diretor na liderança e organização das atividades do clube, garantindo o bom funcionamento das unidades e eventos
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3"></div>
-              <h4 className="font-bold text-gray-900">Paulo Ferreira</h4>
-              <p className="text-sm text-yellow-600">Diretor Associado</p>
-              <p className="text-xs text-gray-600 mt-2">
-                Experiência em atividades ao ar livre e formação de líderes
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 border-4 border-blue-300"></div>
+              <h4 className="font-bold text-gray-900 text-lg mb-1">Paulo Ferreira</h4>
+              <p className="text-sm font-semibold mb-2">Diretor Associado</p>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Apoia o diretor no planejamento e condução dos acampamentos, assegurando a integração das unidades e o êxito das experiências do clube
               </p>
             </div>
 
             <div className="text-center">
-              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3"></div>
-              <h4 className="font-bold text-gray-900">Wangley Corrêa</h4>
-              <p className="text-sm text-purple-600">Conselheiro</p>
-              <p className="text-xs text-gray-600 mt-2">
-                Mentoria dedicada e apoio nas atividades do clube
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 border-4 border-blue-300"></div>
+              <h4 className="font-bold text-gray-900 text-lg mb-1">Wagner Corrêa</h4>
+              <p className="text-sm text-green-600 font-semibold mb-2">Secretário</p>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Responsável pela documentação, registros e comunicação oficial do clube, mantendo tudo organizado e atualizado
               </p>
             </div>
           </div>
