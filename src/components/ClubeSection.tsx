@@ -93,21 +93,21 @@ export function ClubeSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
             <img
-              src="/momentos-especiais/20set2025-batismo-desbravadores-057 (1).jpg"
+              src="/WhatsApp Image 2025-08-20 at 17.24.00.jpeg"
               alt="Momento especial 1"
               className="w-full h-64 object-cover"
             />
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
             <img
-              src="/momentos-especiais/20set2025-batismo-desbravadores-163.jpg"
+              src="/WhatsApp Image 2025-08-18 at 14.40.28.jpeg"
               alt="Momento especial 2"
               className="w-full h-64 object-cover"
             />
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
             <img
-              src="/momentos-especiais/20set2025-batismo-desbravadores-194.jpg"
+              src="/WhatsApp Image 2025-08-18 at 14.40.29 (1).jpeg"
               alt="Momento especial 3"
               className="w-full h-64 object-cover"
             />
