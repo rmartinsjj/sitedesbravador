@@ -430,7 +430,7 @@ function App() {
   function getPartnerImage(partnerName: string): string | undefined {
     const imageMap: { [key: string]: string } = {
       'MIDHU Cosméticos': '/520281855_17846432826526076_2978160867539881913_n. copy.jpg',
-      'Mariana Prado': '/momentos-especiais/mariana.jpeg.jpg',
+      'Mariana Prado': '/mariana-prado/mariana.jpeg.jpg',
       'Taty Costa': '/taty-costa/1.jpg',
       'Rodrigo Corcino': '/rodrigo-corcino/325185493_475832904741174_6009653405693186822_n..jpg',
       'Anfora': '/anfora/489744502_1699564817612603_6487046323882617235_n. copy.jpg',
@@ -459,7 +459,7 @@ function App() {
       'Paulo Mota': '/paulo-mota/541935506_18525254353057356_2439450865202977761_n..jpg',
       'Barão do Açai': '/barao-do-acai/6re.png',
       'Primazia': '/primazia/519256270_17967980879925704_6207942635767733048_n..jpg',
-      'Sass Glasses': '/renan-sass-glasses/275980996_489521845959260_7398789839727510852_n..jpg',
+      'Sass Glasses': '/renan-sass-glasses/275980996_489521845959260_7398789839727510852_n. copy.jpg',
       'Delicias do Tirol': '/delicias-do-tirol/363958022_3152991514845720_5735694861385267132_n..jpg',
       'Alynie Will': '/alynie-will/463803311_794934405994545_6591379054908915588_n..jpg',
       'Erick Personal': '/erick-personal/361540602_291216966790631_5639134789293009669_n..jpg',
@@ -467,8 +467,8 @@ function App() {
       'Perfil Restaurantes': '/perfil-restaurantes/531270448_18418127812104049_6830252492835395672_n..jpg',
       'HRJ Consultoria Tributária': '/hrj-consultoria-tributaria/111hj.jpg',
       'Gráfica Cromia': '/grafica-cromia/111cr.jpg',
-      'Usaflex Praia da Costa': '/usaflex-praia-da-costa/111.jpg',
-      'Melissa Praia da Costa': '/melissa-praia-da-costa/1112.jpg',
+      'Usaflex Praia da Costa': '/usaflex-praia-da-costa/111 copy.jpg',
+      'Melissa Praia da Costa': '/melissa-praia-da-costa/1112 copy.jpg',
       'Tatico Soluções Empresariais': '/tatico-solucoes-empresariais/111tat.png'
     };
     return imageMap[partnerName];
