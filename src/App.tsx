@@ -605,7 +605,7 @@ function App() {
           <section className="relative min-h-screen overflow-hidden bg-black">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-          style={{ backgroundImage: 'url(/momentos-especiais/DSC02617.jpg)' }}
+          style={{ backgroundImage: 'url(/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy.jpg)' }}
         ></div>
         <div className="relative h-full flex items-center justify-center text-center px-4 py-20">
           <div className="max-w-4xl">
