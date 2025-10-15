@@ -441,9 +441,9 @@ function App() {
       'Carol Toledo': '/carol-toledo/474641049_18482749879048892_1106793479925009027_n. copy.jpg',
       'Rafael Martins': '/rafael-martins/4 copy.jpg',
       'HomeTech': '/home-tech/534303763_17910260268192549_4749112964959181747_n. copy copy copy.jpg',
-      'Andressa Vasconcelos': '/andressa-vasconcelos/443844919_1186275459206420_5915919741446610902_n..jpg',
-      'Luciane Segatto': '/luciane-segatto/466982877_533766872815234_7756966585948765596_n..jpg',
-      'Vw Segatto': '/luciane-segatto/10re.png',
+      'Andressa Vasconcelos': '/andressa-vasconcelos/443844919_1186275459206420_5915919741446610902_n. copy copy.jpg',
+      'Luciane Segatto': '/luciane-segatto/466982877_533766872815234_7756966585948765596_n. copy copy.jpg',
+      'Vw Segatto': '/vw-segatto/10 copy.jpg',
       'Loop Kids': '/loop-kids/424926422_3728554757433634_5123167556507636003_n. copy.jpg',
       'Portal Madeiras': '/portal-madeira/5re.png',
       'Nadyne Passos': '/nadyne-passos/489608387_475746338865716_5661852849399704938_n. copy.jpg',
@@ -469,7 +469,7 @@ function App() {
       'Gráfica Cromia': '/grafica-cromia/111cr copy.jpg',
       'Usaflex Praia da Costa': '/usaflex-praia-da-costa/111 copy.jpg',
       'Melissa Praia da Costa': '/melissa-praia-da-costa/1112 copy.jpg',
-      'Tatico Soluções Empresariais': '/tatico-solucoes-empresariais/111tat.png'
+      'Tatico Soluções Empresariais': '/tatico-solucoes-empresariais/111tat copy copy.png'
     };
     return imageMap[partnerName];
   }
