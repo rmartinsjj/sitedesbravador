@@ -1,4 +1,5 @@
 import { Shield, Award, Target } from 'lucide-react';
+import { Carousel } from './Carousel';
 
 export function ClubeSection() {
   return (
@@ -90,29 +91,18 @@ export function ClubeSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
-            <img
-              src="/WhatsApp Image 2025-08-20 at 17.24.00.jpeg"
-              alt="Momento especial 1"
-              className="w-full h-64 object-cover"
-            />
-          </div>
-          <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
-            <img
-              src="/WhatsApp Image 2025-08-18 at 14.40.28.jpeg"
-              alt="Momento especial 2"
-              className="w-full h-64 object-cover"
-            />
-          </div>
-          <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
-            <img
-              src="/WhatsApp Image 2025-08-18 at 14.40.29 (1).jpeg"
-              alt="Momento especial 3"
-              className="w-full h-64 object-cover"
-            />
-          </div>
-        </div>
+        <Carousel
+          images={[
+            '/WhatsApp Image 2025-08-20 at 17.24.00.jpeg',
+            '/WhatsApp Image 2025-08-18 at 14.40.28.jpeg',
+            '/WhatsApp Image 2025-08-18 at 14.40.29 (1).jpeg',
+            '/WhatsApp Image 2025-08-20 at 17.23.59.jpeg',
+            '/WhatsApp Image 2025-08-20 at 17.27.23 (1).jpeg',
+            '/WhatsApp Image 2025-08-20 at 17.24.02.jpeg',
+            '/WhatsApp Image 2025-08-20 at 17.24.22.jpeg',
+            '/WhatsApp Image 2025-08-20 at 17.24.23 (1).jpeg',
+          ]}
+        />
 
         <div className="mt-16 bg-gray-50 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
