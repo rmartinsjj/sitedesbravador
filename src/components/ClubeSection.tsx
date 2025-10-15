@@ -128,7 +128,7 @@ export function ClubeSection() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Nossa <span className="text-orange-500">História</span>
               </h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed text-justify">
+              <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Fundado em 2018, na cidade de Vila Velha – Espírito Santo, o Clube de Desbravadores da Praia nasceu com a missão de formar adolescentes fiéis a Deus, úteis à comunidade e prontos para servir, seguindo os princípios do movimento dos Desbravadores.
                 </p>

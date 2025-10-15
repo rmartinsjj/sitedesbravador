@@ -613,7 +613,7 @@ function App() {
               Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">
-              Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão
+              Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão.
             </p>
             <div className="flex justify-center">
               <button
@@ -637,8 +637,8 @@ function App() {
                 <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-5">
                   Seu apoio faz a <span className="text-green-600">diferença</span>
                 </h3>
-                <p className="text-base sm:text-lg text-gray-600 mb-6 text-justify">
-                  Cada contribuição ajuda a proporcionar experiências transformadoras para nossos jovens desbravadores, desde uniformes e equipamentos até eventos especiais e acampamentos
+                <p className="text-base sm:text-lg text-gray-600 mb-6">
+                  Cada contribuição ajuda a proporcionar experiências transformadoras para nossos jovens desbravadores, desde uniformes e equipamentos até eventos especiais e acampamentos.
                 </p>
 
                 <div className="space-y-4">
