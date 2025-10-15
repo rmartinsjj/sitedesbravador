@@ -12,10 +12,6 @@ function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  const getImagePath = (path: string) => {
-    return path.startsWith('/') ? path : `/${path}`;
-  };
-
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [activeSection]);
@@ -609,7 +605,7 @@ function App() {
           <section className="relative min-h-screen overflow-hidden bg-black">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-          style={{ backgroundImage: `url(${getImagePath('momentos-especiais/20set2025-batismo-desbravadores-275.jpg')})` }}
+          style={{ backgroundImage: 'url(/momentos-especiais/20set2025-batismo-desbravadores-275.jpg)' }}
         ></div>
         <div className="relative h-full flex items-center justify-center text-center px-4 py-20">
           <div className="max-w-4xl">
@@ -686,7 +682,7 @@ function App() {
 
               <div>
                 <img
-                  src={getImagePath('momentos-especiais/20set2025-batismo-desbravadores-057.jpg')}
+                  src="/momentos-especiais/20set2025-batismo-desbravadores-057.jpg"
                   alt="Desbravadores em ação"
                   className="rounded-3xl shadow-2xl w-full h-[300px] sm:h-[400px] lg:h-[450px] object-cover"
                 />
