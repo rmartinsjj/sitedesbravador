@@ -603,17 +603,25 @@ function App() {
         <>
           {/* Hero Section */}
           <section className="relative min-h-screen overflow-hidden bg-black flex items-center justify-center">
-        <div className="relative text-center px-4 py-20 max-w-4xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+        <div className="absolute inset-0">
+          <img
+            src="/20set2025-batismo-desbravadores-275 (1).jpg"
+            alt="Desbravadores"
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
+        </div>
+        <div className="relative text-center px-4 py-20 max-w-4xl z-10">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
             Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-white mb-10 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-white mb-10 max-w-3xl mx-auto drop-shadow-lg">
             Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão
           </p>
           <div className="flex justify-center">
             <button
               onClick={() => setActiveSection('planos')}
-              className="group relative bg-yellow-600 text-black px-10 py-4 rounded-full font-semibold hover:bg-yellow-700 transition-colors text-base flex items-center gap-2"
+              className="group relative bg-yellow-600 text-black px-10 py-4 rounded-full font-semibold hover:bg-yellow-700 transition-colors text-base flex items-center gap-2 shadow-2xl"
             >
               Quero ser Sócio
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
