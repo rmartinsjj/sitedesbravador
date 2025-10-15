@@ -1,98 +1,164 @@
-import { Users, Heart, Target, Award } from 'lucide-react';
+import { Shield, Award, Target } from 'lucide-react';
 
 export function ClubeSection() {
   return (
-    <section className="py-12 sm:py-16 bg-gradient-to-br from-gray-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Sobre o <span className="text-blue-600">Clube</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
+            Nossa <span className="text-blue-600">História</span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Os Desbravadores da Praia formam jovens com valores, propósito e amor pela natureza
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+          <div className="space-y-4 text-gray-700 leading-relaxed">
+            <p>
+              Fundado em 2016, o Clube de Desbravadores da Praia iniciou com a missão de formar adolescentes
+              em valores cristãos. Em 2020, nos reunimos com o Clube de Desbravadores de Itaparica, com o intuito de formar adolescentes
+              que se tornariam agentes de transformação de suas comunidades e levaríamos conhecimento de Deus a toda Região.
+            </p>
+            <p>
+              Ao longo de quase uma década de história, nosso club já foi o lar de dezenas de desbravadores.
+              Hoje, mais de 50 jovens fazem parte do clube, prontos para descobrir o mundo e transformá-lo. Mas
+              de todas essas jovens mentes, apenas 22 adolescentes estão ativos no clube.
+            </p>
+            <p>
+              Mais do que uma cúpula, somos uma família. Aqui construímos pontes, geramos amizades que farão toda
+              a diferença. A vida é uma caminhada com trilhas e desafios que nos elevam a grandes conquistas.
+              Clube de Desbravadores da Praia: formando mentes que farão toda a diferença.
+            </p>
+          </div>
+          <div className="relative">
+            <img
+              src="/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy.jpg"
+              alt="Clube Desbravadores"
+              className="rounded-lg shadow-lg w-full h-auto"
+            />
+          </div>
+        </div>
+
+        <div className="text-center mb-10">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+            Missão e <span className="text-green-600">Valores</span>
+          </h3>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Nossos princípios fundamentais que guiam cada atividade e formam o caráter dos nossos desbravadores
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white rounded-3xl p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Nossa Missão</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Formar jovens através de atividades ao ar livre, desenvolvimento de habilidades práticas e valores cristãos.
-              Nosso clube trabalha para que cada desbravador desenvolva caráter, liderança e responsabilidade social.
-            </p>
-          </div>
-
-          <div className="bg-white rounded-3xl p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Nossa Visão</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Ser referência na formação de adolescentes e jovens, oferecendo experiências transformadoras que
-              preparam para a vida através do aprendizado prático, aventura e valores sólidos.
-            </p>
-          </div>
-        </div>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="text-center">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-blue-600" />
+              <Shield className="w-8 h-8 text-blue-600" />
             </div>
-            <h4 className="text-xl font-bold text-gray-900 mb-2">Comunidade</h4>
+            <h4 className="text-xl font-bold text-gray-900 mb-3">Nossa Missão</h4>
             <p className="text-gray-600 text-sm">
-              Ambiente acolhedor que promove amizades e trabalho em equipe
+              Conduzir meninos e meninas a um relacionamento de salvação com Jesus, ajudá-los a desenvolver
+              seu máximo potencial e leva-los a se tornarem membros responsáveis da Igreja e da sociedade.
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Heart className="w-8 h-8 text-green-600" />
-            </div>
-            <h4 className="text-xl font-bold text-gray-900 mb-2">Valores</h4>
-            <p className="text-gray-600 text-sm">
-              Formação baseada em princípios cristãos e respeito ao próximo
-            </p>
-          </div>
-
-          <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
+          <div className="text-center">
             <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Target className="w-8 h-8 text-yellow-600" />
+              <Award className="w-8 h-8 text-yellow-600" />
             </div>
-            <h4 className="text-xl font-bold text-gray-900 mb-2">Propósito</h4>
+            <h4 className="text-xl font-bold text-gray-900 mb-3">Nossos Valores</h4>
             <p className="text-gray-600 text-sm">
-              Desenvolvimento de habilidades práticas para a vida
+              Amor a Deus, integridade, respeito, compaixão, justiça e compromisso. Estes valores cristãos
+              moldam o comportamento e orientam as decisões na vida dos nossos desbravadores.
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Award className="w-8 h-8 text-purple-600" />
+          <div className="text-center">
+            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Target className="w-8 h-8 text-green-600" />
             </div>
-            <h4 className="text-xl font-bold text-gray-900 mb-2">Conquistas</h4>
+            <h4 className="text-xl font-bold text-gray-900 mb-3">Nossa Visão</h4>
             <p className="text-gray-600 text-sm">
-              Especialidades, acampamentos e eventos especiais
+              Ser referência na formação de adolescentes, oferecendo atividades que promovam o desenvolvimento
+              espiritual, físico, mental e social dos nossos desbravadores.
             </p>
           </div>
         </div>
 
-        <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Nossas Atividades</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <h4 className="font-bold text-gray-900 mb-3">Atividades Regulares</h4>
-              <ul className="space-y-2 text-gray-700">
-                <li>• Reuniões semanais com classes progressivas</li>
-                <li>• Desenvolvimento de especialidades</li>
-                <li>• Ordem unida e cerimônias</li>
-                <li>• Estudo bíblico e devocionais</li>
-              </ul>
+        <div className="text-center mb-10">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+            Momentos <span className="text-blue-600">Especiais</span>
+          </h3>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Registros dos momentos marcantes da aventura, aprendizado e crescimento dos nossos desbravadores
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+            <img
+              src="/momentos-especiais/20set2025-batismo-desbravadores-057 (1).jpg"
+              alt="Momento especial 1"
+              className="w-full h-64 object-cover"
+            />
+          </div>
+          <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+            <img
+              src="/momentos-especiais/20set2025-batismo-desbravadores-163.jpg"
+              alt="Momento especial 2"
+              className="w-full h-64 object-cover"
+            />
+          </div>
+          <div className="relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+            <img
+              src="/momentos-especiais/20set2025-batismo-desbravadores-194.jpg"
+              alt="Momento especial 3"
+              className="w-full h-64 object-cover"
+            />
+          </div>
+        </div>
+
+        <div className="mt-16 bg-gray-50 rounded-2xl p-8">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            Nossa <span className="text-blue-600">Liderança</span>
+          </h3>
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3 overflow-hidden">
+                <img
+                  src="/momentos-especiais/mariana.jpeg.jpg"
+                  alt="Lyvia Kastner"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h4 className="font-bold text-gray-900">Lyvia Kastner</h4>
+              <p className="text-sm text-blue-600">Diretora do Clube</p>
+              <p className="text-xs text-gray-600 mt-2">
+                Líder apaixonada com anos de dedicação na formação dos adolescentes
+              </p>
             </div>
-            <div>
-              <h4 className="font-bold text-gray-900 mb-3">Eventos Especiais</h4>
-              <ul className="space-y-2 text-gray-700">
-                <li>• Acampamentos e bivouaques</li>
-                <li>• Camporis regionais e nacionais</li>
-                <li>• Projetos comunitários</li>
-                <li>• Aventuras ao ar livre</li>
-              </ul>
+
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3"></div>
+              <h4 className="font-bold text-gray-900">Christiny Corrêa</h4>
+              <p className="text-sm text-green-600">Diretora Associada</p>
+              <p className="text-xs text-gray-600 mt-2">
+                Comprometida com o desenvolvimento espiritual dos desbravadores
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3"></div>
+              <h4 className="font-bold text-gray-900">Paulo Ferreira</h4>
+              <p className="text-sm text-yellow-600">Diretor Associado</p>
+              <p className="text-xs text-gray-600 mt-2">
+                Experiência em atividades ao ar livre e formação de líderes
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3"></div>
+              <h4 className="font-bold text-gray-900">Wangley Corrêa</h4>
+              <p className="text-sm text-purple-600">Conselheiro</p>
+              <p className="text-xs text-gray-600 mt-2">
+                Mentoria dedicada e apoio nas atividades do clube
+              </p>
             </div>
           </div>
         </div>
