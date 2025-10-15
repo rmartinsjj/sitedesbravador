@@ -421,6 +421,7 @@ function App() {
   const partners = partnerCompanies.map(partner => ({
     name: partner.name,
     discount: partner.discount,
+    description: partner.shortDescription,
     shortDescription: partner.shortDescription,
     fullDescription: partner.fullDescription,
     link: partner.link,
