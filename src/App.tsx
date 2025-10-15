@@ -605,7 +605,7 @@ function App() {
           <section className="relative min-h-screen overflow-hidden bg-black">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-          style={{ backgroundImage: `url('${encodeURI('/momentos-especiais/20set2025-batismo-desbravadores-275 (1).jpg')}')` }}
+          style={{ backgroundImage: "url('/momentos-especiais/20set2025-batismo-desbravadores-275.jpg')" }}
         ></div>
         <div className="relative h-full flex items-center justify-center text-center px-4 py-20">
           <div className="max-w-4xl">
@@ -682,7 +682,7 @@ function App() {
 
               <div>
                 <img
-                  src={encodeURI('/momentos-especiais/20set2025-batismo-desbravadores-057 (1).jpg')}
+                  src="/momentos-especiais/20set2025-batismo-desbravadores-057.jpg"
                   alt="Desbravadores em ação"
                   className="rounded-3xl shadow-2xl w-full h-[300px] sm:h-[400px] lg:h-[450px] object-cover"
                 />
