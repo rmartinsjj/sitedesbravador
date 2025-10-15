@@ -31,7 +31,7 @@ export function ClubeSection() {
           </div>
           <div className="relative">
             <img
-              src="/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy.jpg"
+              src="/WhatsApp Image 2025-08-20 at 17.42.38 (3).jpeg"
               alt="Clube Desbravadores"
               className="rounded-lg shadow-lg w-full h-auto"
             />
