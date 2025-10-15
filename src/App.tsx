@@ -602,11 +602,13 @@ function App() {
       {activeSection === 'inicio' && (
         <>
           {/* Hero Section */}
-          <section className="relative min-h-screen overflow-hidden bg-black">
+          <section className="relative min-h-screen overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-          style={{ backgroundImage: 'url(/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy.jpg)' }}
-        ></div>
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/momentos-especiais/20set2025-batismo-desbravadores-275 (1) copy copy.jpg)' }}
+        >
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        </div>
         <div className="relative h-full flex items-center justify-center text-center px-4 py-20">
           <div className="max-w-4xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
