@@ -682,7 +682,7 @@ function App() {
 
               <div>
                 <img
-                  src="/momentos-especiais/20set2025-batismo-desbravadores-194.jpg"
+                  src="/momentos-especiais/20set2025-batismo-desbravadores-057 (1) copy.jpg"
                   alt="Desbravadores em ação"
                   className="rounded-3xl shadow-2xl w-full h-[300px] sm:h-[400px] lg:h-[450px] object-cover"
                 />
