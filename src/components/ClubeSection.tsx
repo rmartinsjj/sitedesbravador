@@ -66,7 +66,7 @@ export function ClubeSection() {
             <h4 className="text-xl font-bold text-gray-900 mb-3">Nossos Valores</h4>
             <p className="text-gray-600 text-sm">
               Amor a Deus, integridade, respeito, compaixão, justiça e compromisso. Estes valores cristãos
-              moldam o comportamento e orientam as decisões na vida dos nossos adolescentes
+              moldam o comportamento e orientam as decisões na vida
             </p>
           </div>
 
