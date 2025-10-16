@@ -115,7 +115,7 @@ export function ClubeSection() {
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
                 <img
-                  src="/momentos-especiais/mariana.jpeg.jpg"
+                  src="/luiz-kohler/IMG_7462-fotor-20251009173044.png"
                   alt="Luiz Kohler"
                   className="w-full h-full object-cover"
                 />
