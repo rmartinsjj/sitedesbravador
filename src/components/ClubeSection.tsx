@@ -43,7 +43,7 @@ export function ClubeSection() {
             Missão e <span className="text-green-600">Valores</span>
           </h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Nossos princípios fundamentais que guiam cada atividade e formam o caráter dos nossos desbravadores
+            Nossos princípios fundamentais que guiam cada atividade e formam o caráter
           </p>
         </div>
 
