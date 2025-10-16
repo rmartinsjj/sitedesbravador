@@ -684,7 +684,7 @@ function App() {
 
               <div>
                 <img
-                  src="/momentos-especiais/WhatsApp Image 2025-08-20 at 17.42.38 (3) copy.jpeg"
+                  src="/WhatsApp Image 2025-08-20 at 17.42.38 (3).jpeg"
                   alt="Desbravadores em ação"
                   className="rounded-3xl shadow-2xl w-full h-[300px] sm:h-[400px] lg:h-[450px] object-cover"
                 />
