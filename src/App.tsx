@@ -1507,7 +1507,7 @@ function App() {
 
 
       {/* Footer - Aparece em todas as seções */}
-      <footer className="bg-gray-900 text-white py-6 sm:py-9">
+      <footer className="bg-gray-900 text-white py-3 sm:py-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="flex-1">
