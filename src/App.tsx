@@ -515,7 +515,7 @@ function App() {
               <img
                 src="/logodbv copy.png"
                 alt="Desbravadores da Praia"
-                className="h-12 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
               <div className="flex flex-col">
                 <span className="text-sm md:text-base font-bold text-gray-900 leading-tight">Sócio Desbravador</span>
