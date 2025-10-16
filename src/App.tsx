@@ -1456,9 +1456,9 @@ function App() {
             <div className="flex-1">
               <div className="flex items-center space-x-2 mb-3">
                 <img
-                  src="/logodbv.png"
-                  alt="Desbravadores da Praia"
-                  className="h-9 sm:h-10 w-auto object-contain"
+                 
+                  
+                  
                 />
                 <div className="flex flex-col">
                   <span className="font-bold text-sm sm:text-base leading-tight">DBV da Praia</span>
