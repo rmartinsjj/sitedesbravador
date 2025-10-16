@@ -510,7 +510,7 @@ function App() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-12">
+          <div className="flex justify-between items-center h-10">
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveSection('inicio')}>
               <img
                 src="/logodbv copy.png"
