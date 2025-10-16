@@ -1381,18 +1381,18 @@ function App() {
           </div>
 
           {/* CTA */}
-          <div className="bg-gradient-to-r from-blue-600 to-green-500 rounded-3xl p-8 sm:p-12 text-center text-white">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">Ainda tem dúvidas?</h3>
-            <p className="text-base sm:text-xl mb-6 sm:mb-8 text-blue-50">
+          <div className="bg-gradient-to-r from-blue-600 to-green-500 rounded-2xl p-6 sm:p-8 text-center text-white shadow-lg">
+            <h3 className="text-xl sm:text-2xl font-bold mb-2">Ainda tem dúvidas?</h3>
+            <p className="text-sm sm:text-base mb-5 text-blue-50">
               Entre em contato conosco e tire todas as suas dúvidas.
             </p>
             <a
               href="https://wa.me/5527988243901?text=Estou%20com%20duvida%20no%20s%C3%B3cio%20desbravador%20do%20clube%20desbravadores%20da%20praia"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-yellow-400 text-gray-900 px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition-colors text-sm sm:text-base"
+              className="inline-flex items-center gap-2 bg-yellow-400 text-gray-900 px-6 py-2.5 rounded-full font-semibold hover:bg-yellow-500 transition-all hover:scale-105 text-sm"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-4 h-4" />
               Fale conosco
             </a>
           </div>
