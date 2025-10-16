@@ -54,8 +54,8 @@ export function ClubeSection() {
             </div>
             <h4 className="text-xl font-bold text-gray-900 mb-3">Nossa Missão</h4>
             <p className="text-gray-600 text-sm">
-              Conduzir meninos e meninas a um relacionamento de salvação com Jesus, ajudá-los a desenvolver
-              seu máximo potencial e leva-los a se tornarem membros responsáveis da Igreja e da sociedade.
+              Conduzir adolescentes a um relacionamento de salvação com Jesus, ajudá-los a desenvolver
+              seu máximo potencial e leva-los a se tornarem membros responsáveis da Igreja e da sociedade
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export function ClubeSection() {
             <h4 className="text-xl font-bold text-gray-900 mb-3">Nossos Valores</h4>
             <p className="text-gray-600 text-sm">
               Amor a Deus, integridade, respeito, compaixão, justiça e compromisso. Estes valores cristãos
-              moldam o comportamento e orientam as decisões na vida dos nossos desbravadores.
+              moldam o comportamento e orientam as decisões na vida dos nossos adolescentes
             </p>
           </div>
 
@@ -77,7 +77,7 @@ export function ClubeSection() {
             <h4 className="text-xl font-bold text-gray-900 mb-3">Nossa Visão</h4>
             <p className="text-gray-600 text-sm">
               Ser referência na formação de adolescentes, oferecendo atividades que promovam o desenvolvimento
-              espiritual, físico, mental e social dos nossos desbravadores.
+              espiritual, físico, mental e social
             </p>
           </div>
         </div>
