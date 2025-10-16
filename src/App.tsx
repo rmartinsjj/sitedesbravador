@@ -805,7 +805,7 @@ function App() {
               Planos de <span className="text-blue-600">Sócios</span>
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-4">
-              Escolha o plano que melhor se adequa às suas possibilidades e comece a apoiar adolescentes
+              Escolha o plano que melhor se adequa às suas possibilidades e comece a apoiar
             </p>
           </div>
 
