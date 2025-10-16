@@ -418,14 +418,16 @@ function App() {
     },
   ];
 
-  const partners = partnerCompanies.map(partner => ({
-    name: partner.name,
-    discount: partner.discount,
-    shortDescription: partner.shortDescription,
-    fullDescription: partner.fullDescription,
-    link: partner.link,
-    image: getPartnerImage(partner.name)
-  }));
+  const partners = partnerCompanies
+    .filter(partner => !partner.discount.toLowerCase().includes('em breve'))
+    .map(partner => ({
+      name: partner.name,
+      discount: partner.discount,
+      shortDescription: partner.shortDescription,
+      fullDescription: partner.fullDescription,
+      link: partner.link,
+      image: getPartnerImage(partner.name)
+    }));
 
   function getPartnerImage(partnerName: string): string | undefined {
     const imageMap: { [key: string]: string } = {
