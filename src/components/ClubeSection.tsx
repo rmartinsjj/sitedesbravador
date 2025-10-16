@@ -87,7 +87,7 @@ export function ClubeSection() {
             Momentos <span className="text-blue-600">Especiais</span>
           </h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Registros dos momentos marcantes da aventura, aprendizado e crescimento dos nossos desbravadores
+            Registros dos momentos marcantes da aventura, aprendizado e crescimento
           </p>
         </div>
 
