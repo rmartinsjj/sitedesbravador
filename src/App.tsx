@@ -62,7 +62,7 @@ function App() {
       id: 2,
       name: 'Sergio Otone',
       role: 'Sócio Gold há 1 mês',
-      image: "/momentos-especiais/WhatsApp Image 2025-10-09 at 18.07.26-fotor-2025100918841 copy.png",
+      image: "/sergio-otone/WhatsApp Image 2025-09-20 at 13.18.49 (3)-fotor-20251009181529.png",
       text: 'Mesmo fazendo parte da diretoria, decidi também ser Sócio Desbravador, porque acredito no exemplo. Contribuir financeiramente é mais uma forma de mostrar meu amor pelo clube'
     }
   ];
