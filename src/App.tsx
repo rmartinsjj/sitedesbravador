@@ -4,7 +4,12 @@ import { ClubeSection } from './components/ClubeSection';
 import { PartnerCard } from './components/PartnerCard';
 
 function App() {
-  const [activeSection, setActiveSection] = useState('inicio');
+  const getInitialSection = () => {
+    const hash = window.location.hash.replace('#', '') || 'inicio';
+    return ['inicio', 'clube', 'planos', 'beneficios'].includes(hash) ? hash : 'inicio';
+  };
+
+  const [activeSection, setActiveSection] = useState(getInitialSection());
   const [currentPartnerSlide, setCurrentPartnerSlide] = useState(0);
   const [currentTestimonialSlide, setCurrentTestimonialSlide] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -13,6 +18,18 @@ function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '') || 'inicio';
+      if (['inicio', 'clube', 'planos', 'beneficios'].includes(hash)) {
+        setActiveSection(hash);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -533,13 +550,18 @@ function App() {
     return partners.slice(start, end);
   };
 
+  const navigateToSection = (section: string) => {
+    window.location.hash = section;
+    setActiveSection(section);
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-10">
-            <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveSection('inicio')}>
+            <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigateToSection('inicio')}>
               <img
                 src="/logodbv copy.png"
                 alt="Desbravadores da Praia"
@@ -552,25 +574,25 @@ function App() {
             </div>
             <div className="hidden md:flex space-x-6 text-sm">
               <button
-                onClick={() => setActiveSection('inicio')}
+                onClick={() => navigateToSection('inicio')}
                 className={`${activeSection === 'inicio' ? 'text-blue-600 font-semibold' : 'text-gray-700'} hover:text-blue-600`}
               >
                 Início
               </button>
               <button
-                onClick={() => setActiveSection('clube')}
+                onClick={() => navigateToSection('clube')}
                 className={`${activeSection === 'clube' ? 'text-blue-600 font-semibold' : 'text-gray-700'} hover:text-blue-600`}
               >
                 Clube
               </button>
               <button
-                onClick={() => setActiveSection('planos')}
+                onClick={() => navigateToSection('planos')}
                 className={`${activeSection === 'planos' ? 'text-blue-600 font-semibold' : 'text-gray-700'} hover:text-blue-600`}
               >
                 Planos
               </button>
               <button
-                onClick={() => setActiveSection('beneficios')}
+                onClick={() => navigateToSection('beneficios')}
                 className={`${activeSection === 'beneficios' ? 'text-blue-600 font-semibold' : 'text-gray-700'} hover:text-blue-600`}
               >
                 Benefícios
@@ -589,7 +611,7 @@ function App() {
             <div className="px-4 py-2 space-y-1">
               <button
                 onClick={() => {
-                  setActiveSection('inicio');
+                  navigateToSection('inicio');
                   setMobileMenuOpen(false);
                 }}
                 className={`block w-full text-left px-4 py-3 rounded-lg ${activeSection === 'inicio' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-700'} hover:bg-gray-50`}
@@ -598,7 +620,7 @@ function App() {
               </button>
               <button
                 onClick={() => {
-                  setActiveSection('clube');
+                  navigateToSection('clube');
                   setMobileMenuOpen(false);
                 }}
                 className={`block w-full text-left px-4 py-3 rounded-lg ${activeSection === 'clube' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-700'} hover:bg-gray-50`}
@@ -607,7 +629,7 @@ function App() {
               </button>
               <button
                 onClick={() => {
-                  setActiveSection('planos');
+                  navigateToSection('planos');
                   setMobileMenuOpen(false);
                 }}
                 className={`block w-full text-left px-4 py-3 rounded-lg ${activeSection === 'planos' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-700'} hover:bg-gray-50`}
@@ -616,7 +638,7 @@ function App() {
               </button>
               <button
                 onClick={() => {
-                  setActiveSection('beneficios');
+                  navigateToSection('beneficios');
                   setMobileMenuOpen(false);
                 }}
                 className={`block w-full text-left px-4 py-3 rounded-lg ${activeSection === 'beneficios' ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-700'} hover:bg-gray-50`}
@@ -650,7 +672,7 @@ function App() {
           </p>
           <div className="flex justify-center">
             <button
-              onClick={() => setActiveSection('planos')}
+              onClick={() => navigateToSection('planos')}
               className="group relative bg-yellow-600 text-black px-10 py-4 rounded-full font-semibold hover:bg-yellow-700 transition-colors text-base flex items-center gap-2 shadow-2xl"
             >
               Quero ser Sócio
