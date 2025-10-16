@@ -1454,8 +1454,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="flex-1">
-              <div className="flex items-center space-x-2 mb-3">
-      
+              <div className="flex items-center space-x-2 mb-3"> 
               </div>
               <p className="text-gray-400 text-xs mb-3 max-w-md">
                 Apoie o movimento dos Desbravadores e faça parte da formação de jovens com valores de união, aventura, fé e propósito.
@@ -1470,7 +1469,7 @@ function App() {
                 <a href="https://wa.me/5527988243901?text=Estou%20com%20duvida%20no%20s%C3%B3cio%20desbravador%20do%20clube%20desbravadores%20da%20praia" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors">
                   <MessageCircle className="w-4 h-4" />
                 </a>
-                <a href="mailto:Dbvdapraia@gmail.com" className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <a href="mailto:dbvdapraia@gmail.com" className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
                   <Mail className="w-4 h-4" />
                 </a>
                 <a href="https://www.google.com/maps/place/Clube+Liban%C3%AAs/@-20.3301087,-40.2847691,17z" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-colors">
