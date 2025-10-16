@@ -1455,15 +1455,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="flex-1">
               <div className="flex items-center space-x-2 mb-3">
-                <img
-                 
-                  
-                  
-                />
-                <div className="flex flex-col">
-                  <span className="font-bold text-sm sm:text-base leading-tight">DBV da Praia</span>
-                  <span className="text-xs text-gray-400 leading-tight">Sócio Desbravador</span>
-                </div>
+      
               </div>
               <p className="text-gray-400 text-xs mb-3 max-w-md">
                 Apoie o movimento dos Desbravadores e faça parte da formação de jovens com valores de união, aventura, fé e propósito.
