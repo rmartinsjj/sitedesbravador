@@ -826,7 +826,7 @@ function App() {
                   <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700" />
                 </button>
 
-                <div className="flex justify-center gap-2 mt-8 overflow-x-auto scrollbar-hide">
+                <div className="hidden">
                   {Array.from({ length: totalPages }).map((_, index) => (
                     <button
                       key={index}
