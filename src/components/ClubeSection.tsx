@@ -5,7 +5,7 @@ export function ClubeSection() {
   return (
     <section className="py-8 sm:py-16 bg-white pt-10 sm:pt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-6 sm:mb-12">
+        <div className="text-center mb-6 sm:mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
             Nossa <span className="text-blue-600">História</span>
           </h2>
