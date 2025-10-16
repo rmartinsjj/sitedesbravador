@@ -130,7 +130,7 @@ export function ClubeSection() {
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
                 <img
-                  src="/cristiny-correa/WhatsApp Image 2025-10-09 at 19.56.10.jpeg"
+                  src="/paulo-ferreira/WhatsApp Image 2025-08-20 at 17.27.58-fotor-2025101002427 copy.png"
                   alt="Cristiny Corrêa"
                   className="w-full h-full object-cover"
                 />
@@ -145,7 +145,7 @@ export function ClubeSection() {
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
                 <img
-                  src="/paulo-ferreira/WhatsApp Image 2025-10-09 at 17.35.24-fotor-2025100917366.png"
+                  src="/cristiny-correa/WhatsApp Image 2025-10-09 at 19.56.10.jpeg"
                   alt="Paulo Ferreira"
                   className="w-full h-full object-cover"
                 />
@@ -160,7 +160,7 @@ export function ClubeSection() {
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
                 <img
-                  src="/paulo-ferreira/WhatsApp Image 2025-08-20 at 17.27.58-fotor-2025101002427 copy.png"
+                  src="/paulo-ferreira/WhatsApp Image 2025-10-09 at 17.35.24-fotor-2025100917366.png"
                   alt="Wagner Corrêa"
                   className="w-full h-full object-cover"
                 />
