@@ -54,8 +54,8 @@ export function ClubeSection() {
             </div>
             <h4 className="text-xl font-bold text-gray-900 mb-3">Nossa Missão</h4>
             <p className="text-gray-600 text-sm">
-              Conduzir adolescentes a um relacionamento de salvação com Jesus, ajudá-los a desenvolver
-              seu máximo potencial e leva-los a se tornarem membros responsáveis da Igreja e da sociedade
+              Conduzir adolescentes a um relacionamento com Jesus, ajudá-los a desenvolver
+              seu máximo potencial 
             </p>
           </div>
 
