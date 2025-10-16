@@ -11,7 +11,7 @@ export function ClubeSection() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-16 text-justify">
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
               Fundado em 2016, o Clube de Desbravadores da Praia iniciou com a missão de formar adolescentes
