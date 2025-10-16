@@ -128,7 +128,13 @@ export function ClubeSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 border-4 border-blue-300"></div>
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
+                <img
+                  src="/cristiny-correa/WhatsApp Image 2025-10-09 at 19.56.10.jpeg"
+                  alt="Cristiny Corrêa"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h4 className="font-bold text-gray-900 text-lg mb-1">Cristiny Corrêa</h4>
               <p className="text-sm text-blue-600 font-semibold mb-2">Diretora Associada</p>
               <p className="text-xs text-gray-600 leading-relaxed">
@@ -137,7 +143,13 @@ export function ClubeSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 border-4 border-blue-300"></div>
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
+                <img
+                  src="/paulo-ferreira/WhatsApp Image 2025-10-09 at 17.35.24-fotor-2025100917366.png"
+                  alt="Paulo Ferreira"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h4 className="font-bold text-gray-900 text-lg mb-1">Paulo Ferreira</h4>
               <p className="text-sm font-semibold mb-2">Diretor Associado</p>
               <p className="text-xs text-gray-600 leading-relaxed">
@@ -146,7 +158,13 @@ export function ClubeSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 border-4 border-blue-300"></div>
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-300">
+                <img
+                  src="/paulo-ferreira/WhatsApp Image 2025-08-20 at 17.27.58-fotor-2025101002427 copy.png"
+                  alt="Wagner Corrêa"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h4 className="font-bold text-gray-900 text-lg mb-1">Wagner Corrêa</h4>
               <p className="text-sm text-green-600 font-semibold mb-2">Secretário</p>
               <p className="text-xs text-gray-600 leading-relaxed">
