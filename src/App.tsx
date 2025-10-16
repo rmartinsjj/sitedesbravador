@@ -37,14 +37,14 @@ function App() {
       name: 'Julia Siqueira',
       role: 'Sócia Platinum há 1 mês',
       image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop',
-      text: '"Ser Sócio Desbravador me faz sentir parte de algo maior. Saber que minha contribuição ajuda o clube a formar adolescentes com valores e propósito é uma satisfação enorme."'
+      text: 'Ser Sócio Desbravador me faz sentir parte de algo maior. Saber que minha contribuição ajuda o clube a formar adolescentes com valores e propósito é uma satisfação enorme'
     },
     {
       id: 2,
       name: 'Sergio Otone',
       role: 'Sócio Gold há 1 mês',
       image: "/momentos-especiais/WhatsApp Image 2025-10-09 at 18.07.26-fotor-2025100918841 copy.png",
-      text: '"Mesmo fazendo parte da diretoria, decidi também ser Sócio Desbravador, porque acredito no exemplo. Contribuir financeiramente é mais uma forma de mostrar meu amor pelo clube."'
+      text: 'Mesmo fazendo parte da diretoria, decidi também ser Sócio Desbravador, porque acredito no exemplo. Contribuir financeiramente é mais uma forma de mostrar meu amor pelo clube'
     }
   ];
 
