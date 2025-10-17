@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, Shield, ArrowRight } from 'lucide-react';
-import { ClubeSection } from './components/ClubeSection';
-import { PartnerCard } from './components/PartnerCard';
 
 function App() {
   const getInitialSection = () => {
