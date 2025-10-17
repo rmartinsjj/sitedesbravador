@@ -665,7 +665,7 @@ function App() {
         </div>
         <div className="relative text-center px-4 py-20 max-w-4xl z-10 -mt-16 sm:mt-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
-            Apoie quem está <span className="text-yellow-400">DESBRAVANDO</span> um futuro melhor
+            Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/30 mb-10 max-w-3xl mx-auto drop-shadow-lg">
             Junte-se ao movimento que transforma vidas através da aventura e propósito. Seja um Sócio Desbravador e faça parte dessa missão
