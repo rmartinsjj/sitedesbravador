@@ -661,7 +661,7 @@ function App() {
             alt="Desbravadores"
             className="w-full h-full object-cover object-center opacity-30 md:opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 md:from-black/60 md:via-black/40 md:to-black/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 md:from-black/30 md:via-black/10 md:to-black/30"></div>
         </div>
         <div className="relative text-center px-4 py-20 max-w-4xl z-10 -mt-16 sm:mt-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
