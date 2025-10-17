@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, ArrowRight } from 'lucide-react';
+import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, Shield, ArrowRight } from 'lucide-react';
+import { ClubeSection } from './components/ClubeSection';
+import { PartnerCard } from './components/PartnerCard';
 
 function App() {
   const getInitialSection = () => {
@@ -659,7 +661,7 @@ function App() {
             alt="Desbravadores"
             className="w-full h-full object-cover object-center opacity-30 md:opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 md:from-black/30 md:via-black/10 md:to-black/30"></div>
         </div>
         <div className="relative text-center px-4 py-20 max-w-4xl z-10 -mt-16 sm:mt-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
@@ -795,7 +797,7 @@ function App() {
                               {partner.discount}
                             </p>
                             <p className="text-gray-600 text-sm text-center">
-                              {partner.shortDescription}
+                              {partner.description}
                             </p>
                           </PartnerCard>
                         );
@@ -847,20 +849,7 @@ function App() {
       )}
 
       {/* Seção Clube */}
-      {activeSection === 'clube' && (
-        <section className="py-8 sm:py-12 lg:py-14 bg-gradient-to-br from-blue-50 to-indigo-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-                Clube de <span className="text-blue-600">Vantagens</span>
-              </h2>
-              <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
-                Conheça nossos parceiros e aproveite benefícios exclusivos
-              </p>
-            </div>
-          </div>
-        </section>
-      )}
+      {activeSection === 'clube' && <ClubeSection />}
 
       {/* Seção Planos */}
       {activeSection === 'planos' && (
@@ -1499,39 +1488,11 @@ function App() {
             {filteredPartners.length > 0 ? (
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
                 {filteredPartners.map((partner) => (
-                  <div
+                  <PartnerCard
                     key={partner.id}
-                    className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group cursor-pointer"
-                  >
-                    <div className="aspect-square relative overflow-hidden bg-gray-100">
-                      <img
-                        src={getPartnerImage(partner.name)}
-                        alt={partner.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
-                    </div>
-                    <div className="p-3 sm:p-4">
-                      <h3 className="font-bold text-sm sm:text-base text-gray-900 mb-1 sm:mb-2 line-clamp-1">
-                        {partner.name}
-                      </h3>
-                      <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3 line-clamp-2">
-                        {partner.shortDescription}
-                      </p>
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs sm:text-sm font-semibold text-blue-600">
-                          {partner.discount}
-                        </span>
-                        <a
-                          href={partner.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-700 transition-colors"
-                        >
-                          <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                    partner={partner}
+                    image={getPartnerImage(partner.name)}
+                  />
                 ))}
               </div>
             ) : (
