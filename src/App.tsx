@@ -663,7 +663,7 @@ function App() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 md:from-black/60 md:via-black/40 md:to-black/60"></div>
         </div>
-        <div className="relative text-center px-4 py-10 max-w-4xl z-10">
+        <div className="relative text-center px-4 py-7 max-w-4xl z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
             Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
           </h1>
