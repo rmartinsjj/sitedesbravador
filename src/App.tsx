@@ -659,7 +659,7 @@ function App() {
           <img
             src="/20set2025-batismo-desbravadores-275 (1).jpg"
             alt="Desbravadores"
-            className="w-full h-full object-cover object-center opacity-30 md:opacity-40"
+            className="w-full h-full object-cover object-center opacity-40 md:opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 md:from-black/30 md:via-black/10 md:to-black/30"></div>
         </div>
