@@ -657,9 +657,14 @@ function App() {
           <section className="relative min-h-screen overflow-hidden bg-black flex items-start justify-center pt-28 sm:items-center sm:pt-0">
         <div className="absolute inset-0">
           <img
+            src="/capamobile.jpg"
+            alt="Desbravadores"
+            className="w-full h-full object-cover object-center opacity-30 md:hidden"
+          />
+          <img
             src="/20set2025-batismo-desbravadores-275 (1).jpg"
             alt="Desbravadores"
-            className="w-full h-full object-cover object-center opacity-30 md:opacity-40"
+            className="hidden md:block w-full h-full object-cover object-center opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 md:from-black/60 md:via-black/40 md:to-black/60"></div>
         </div>
