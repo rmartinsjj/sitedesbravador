@@ -654,21 +654,16 @@ function App() {
       {activeSection === 'inicio' && (
         <>
           {/* Hero Section */}
-          <section className="relative min-h-screen overflow-hidden bg-black flex items-start justify-center pt-28 sm:items-center sm:pt-0">
+          <section className="relative min-h-screen overflow-hidden bg-black flex items-center justify-center">
         <div className="absolute inset-0">
-          <img
-            src="/capamobile.jpg"
-            alt="Desbravadores"
-            className="w-full h-full object-cover object-center opacity-30 md:hidden"
-          />
           <img
             src="/20set2025-batismo-desbravadores-275 (1).jpg"
             alt="Desbravadores"
-            className="hidden md:block w-full h-full object-cover object-center opacity-40"
+            className="w-full h-full object-cover object-center opacity-30 md:opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 md:from-black/60 md:via-black/40 md:to-black/60"></div>
         </div>
-        <div className="relative text-center px-4 py-10 sm:py-20 max-w-4xl z-10">
+        <div className="relative text-center px-4 py-20 max-w-4xl z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
             Apoie quem está <span className="text-yellow-400">desbravando</span> um futuro melhor
           </h1>
