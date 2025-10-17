@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, Shield, ArrowRight } from 'lucide-react';
+import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, ArrowRight } from 'lucide-react';
 
 function App() {
   const getInitialSection = () => {
@@ -795,7 +795,7 @@ function App() {
                               {partner.discount}
                             </p>
                             <p className="text-gray-600 text-sm text-center">
-                              {partner.description}
+                              {partner.shortDescription}
                             </p>
                           </PartnerCard>
                         );
@@ -847,7 +847,20 @@ function App() {
       )}
 
       {/* Seção Clube */}
-      {activeSection === 'clube' && <ClubeSection />}
+      {activeSection === 'clube' && (
+        <section className="py-8 sm:py-12 lg:py-14 bg-gradient-to-br from-blue-50 to-indigo-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
+                Clube de <span className="text-blue-600">Vantagens</span>
+              </h2>
+              <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
+                Conheça nossos parceiros e aproveite benefícios exclusivos
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Seção Planos */}
       {activeSection === 'planos' && (
@@ -1486,11 +1499,39 @@ function App() {
             {filteredPartners.length > 0 ? (
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
                 {filteredPartners.map((partner) => (
-                  <PartnerCard
+                  <div
                     key={partner.id}
-                    partner={partner}
-                    image={getPartnerImage(partner.name)}
-                  />
+                    className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group cursor-pointer"
+                  >
+                    <div className="aspect-square relative overflow-hidden bg-gray-100">
+                      <img
+                        src={getPartnerImage(partner.name)}
+                        alt={partner.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-3 sm:p-4">
+                      <h3 className="font-bold text-sm sm:text-base text-gray-900 mb-1 sm:mb-2 line-clamp-1">
+                        {partner.name}
+                      </h3>
+                      <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3 line-clamp-2">
+                        {partner.shortDescription}
+                      </p>
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs sm:text-sm font-semibold text-blue-600">
+                          {partner.discount}
+                        </span>
+                        <a
+                          href={partner.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-700 transition-colors"
+                        >
+                          <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 ))}
               </div>
             ) : (
