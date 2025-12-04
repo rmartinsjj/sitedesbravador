@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, Shield, ArrowRight } from 'lucide-react';
+import { Star, Package, Calendar, Users, Facebook, Instagram, Mail, MapPin, Check, X, ChevronLeft, ChevronRight, MessageCircle, ChevronDown, Search, Menu, Shield, ArrowRight, Heart } from 'lucide-react';
 import { ClubeSection } from './components/ClubeSection';
 import { PartnerCard } from './components/PartnerCard';
 
@@ -1198,6 +1198,28 @@ function App() {
                 ))}
               </div>
             )}
+          </div>
+
+          {/* Donation Section */}
+          <div className="max-w-4xl mx-auto mb-12 sm:mb-16">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-8 sm:p-12 shadow-lg text-center">
+              <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Heart className="w-10 h-10 text-white" />
+              </div>
+              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                Faça uma Doação
+              </h3>
+              <p className="text-gray-700 text-base sm:text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+                Não quer assinar um plano, mas ainda assim deseja apoiar nossa missão?
+                Sua contribuição única faz a diferença na vida de nossos desbravadores!
+              </p>
+              <a
+                href="https://www.asaas.com/c/dfn07wdooh1cfu3x"
+                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
+              >
+                Fazer uma Doação
+              </a>
+            </div>
           </div>
 
           {/* FAQ Section */}
