@@ -1209,9 +1209,12 @@ function App() {
               <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
                 Faça uma Doação
               </h3>
-              <p className="text-gray-700 text-base sm:text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-gray-700 text-base sm:text-lg mb-6 max-w-2xl mx-auto leading-relaxed">
                 Não quer assinar um plano, mas ainda assim deseja apoiar nossa missão?
-                Sua contribuição única faz a diferença na vida de nossos desbravadores!
+                <strong className="block mt-2 text-gray-900">Qualquer valor faz a diferença!</strong>
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base mb-8 max-w-xl mx-auto">
+                Sua contribuição ajuda a transformar vidas, fortalecer valores e construir um futuro melhor para nossos desbravadores.
               </p>
               <a
                 href="https://www.asaas.com/c/dfn07wdooh1cfu3x"
