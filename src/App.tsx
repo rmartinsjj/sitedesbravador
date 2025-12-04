@@ -985,9 +985,12 @@ function App() {
                 </li>
               </ul>
 
-              <button className="w-full bg-purple-600 text-white py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors mt-auto">
+              <a
+                href="https://www.asaas.com/c/8sgqbgbv5lhmyppp"
+                className="w-full bg-purple-600 text-white py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors mt-auto block text-center"
+              >
                 Quero ser Sócio Platinum
-              </button>
+              </a>
             </div>
           </div>
 
