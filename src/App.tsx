@@ -904,9 +904,12 @@ function App() {
                 </li>
               </ul>
 
-              <button className="w-full bg-gray-800 text-white py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors mt-auto">
+              <a
+                href="https://www.asaas.com/c/qhw157lzaut2cynm"
+                className="w-full bg-gray-800 text-white py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors mt-auto block text-center"
+              >
                 Quero ser Sócio Silver
-              </button>
+              </a>
             </div>
 
             {/* Gold Plan - Popular */}
