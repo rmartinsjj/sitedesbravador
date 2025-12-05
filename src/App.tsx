@@ -1463,25 +1463,27 @@ function App() {
 
           {/* Donation Section */}
           <div className="mt-4 sm:mt-5">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-3 sm:p-4 shadow-md text-center">
-              <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                <Heart className="w-5 h-5 text-white" />
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 sm:p-8 shadow-lg text-center">
+              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                <Heart className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
                 Faça uma Doação
               </h3>
-              <p className="text-gray-700 text-xs sm:text-sm mb-1 max-w-lg mx-auto">
+              <p className="text-sm sm:text-base text-gray-700 mb-2">
                 Não quer assinar um plano, mas ainda assim deseja apoiar nossa missão?
-                <strong className="block mt-0.5 text-gray-900">Qualquer valor faz a diferença!</strong>
               </p>
-              <p className="text-gray-600 text-xs mb-3 max-w-md mx-auto">
+              <p className="text-sm sm:text-base font-bold text-gray-900 mb-3">
+                Qualquer valor faz a diferença!
+              </p>
+              <p className="text-xs sm:text-sm text-gray-600 mb-5">
                 Sua contribuição ajuda a transformar vidas, fortalecer valores e construir um futuro melhor para nossos desbravadores.
               </p>
               <a
                 href="https://www.asaas.com/c/dfn07wdooh1cfu3x"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 text-white px-4 py-2 rounded-full font-semibold text-xs sm:text-sm hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md"
+                className="inline-block bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-blue-700 transition-all hover:scale-105 shadow-md"
               >
                 Fazer uma Doação
               </a>
